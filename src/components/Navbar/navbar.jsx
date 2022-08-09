@@ -52,7 +52,7 @@ const Navbar = ({ lr, nr, theme }) => {
 		>
 			<div className="container">
 				<Link href="/">
-					<a
+					<div
 						className="logo"
 						href="/"
 						style={{ width: "fit-content" }}
@@ -74,7 +74,7 @@ const Navbar = ({ lr, nr, theme }) => {
 						) : (
 							<img ref={lr} src={appData.lightLogo} alt="logo" />
 						)}
-					</a>
+					</div>
 				</Link>
 
 				<button
