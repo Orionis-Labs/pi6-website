@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Intro from "../../components/Intro/intro";
 import Footer from "../../components/Footer/footer";
-import DarkTheme from "../../layouts/dark";
+import DarkTheme from "../../layouts/Dark";
 import Faq from "../../components/Faq/faq";
 import Features from "../../components/Features/features";
 import Contact from "../../components/Contact/contact";
