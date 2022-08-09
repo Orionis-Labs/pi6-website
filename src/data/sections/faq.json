@@ -1,0 +1,22 @@
+[
+	{
+		"id": "0",
+		"question": "What is Pi6 Finance?",
+		"answer": "Pi6 Finance is an analytical dashboard cum wallet with every feature/functionality being just a few taps away."
+	},
+	{
+		"id": "1",
+		"question": "What Blockchains do we support?",
+		"answer": "We support all Cosmos SDK based blockchains. Upon success of Pi6 Finance in the Cosmos Ecosystem, we plan to integrate EVM based chains."
+	},
+	{
+		"id": "2",
+		"question": "When will the application be released?",
+		"answer": "Pi6 Finance is currently in it's MVP stage. It will be available for the public soon after we squash every bug for a seamless user experience."
+	},
+	{
+		"id": "3",
+		"question": "Are all our services free?",
+		"answer": "Pi6 Finance will operate on a freemium model."
+	}
+]
