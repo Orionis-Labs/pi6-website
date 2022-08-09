@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"icon": "pe-7s-cash",
+		"title": "Interchain'esque Portfolio",
+		"content": "Keep track of all your assets within the IBC-enabled chains."
+	},
+	{
+		"id": 2,
+		"icon": "pe-7s-display1",
+		"title": "Explore the Cosmos",
+		"content": "Still bookmarking dApps?. Now all your favourite dApps are just a click away."
+	},
+	{
+		"id": 3,
+		"icon": "pe-7s-key",
+		"title": "Your Crypto, Your Keys",
+		"content": "We also provide a non-custodial wallet service. You decide whether to trust us or not."
+	},
+	{
+		"id": 4,
+		"icon": "pe-7s-rocket",
+		"title": "Air \"Free Money\" Drop",
+		"content": "Never miss any update about an airdrop from your favourite upcoming protocol."
+	},
+	{
+		"id": 5,
+		"icon": "pe-7s-speaker",
+		"title": "Govern'em",
+		"content": "Love taking part in making decisions? Never miss voting on any governance proposal on your favourite chain."
+	},
+	{
+		"id": 6,
+		"icon": "pe-7s-gleam",
+		"title": "Tranquil Transfers",
+		"content": "Perform IBC transfers and swaps (soon) frictionlessly."
+	}
+]
