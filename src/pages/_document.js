@@ -15,13 +15,13 @@ class MyDocument extends Document {
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 					<meta
 						name="keywords"
-						content="HTML5 Template Vie onepage themeforest"
+						content="pi6-finance pi6 finance wallet ibc dashboard cosmos-dashboard cosmos non-custodial-wallet governance airdrop-tracker"
 					/>
 					<meta
 						name="description"
-						content="Vie - Onepage Multi-Purpose HTML5 Template"
+						content="The Dashboard of the Interchain."
 					/>
-					<meta name="author" content="" />
+					<meta name="author" content="OrionisLabs" />
 					<link rel="shortcut icon" href="/img/favicon.ico" />
 					<link
 						href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"

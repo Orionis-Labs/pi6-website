@@ -1,5 +1,6 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
+import axios from "axios";
 
 const Contact = () => {
 	const messageRef = React.useRef(null);
@@ -12,7 +13,7 @@ const Contact = () => {
 		}
 		return error;
 	}
-	const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+	// const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
 	return (
 		<section className="contact section-padding" id="contact">
 			<div className="container">
@@ -36,10 +37,21 @@ const Contact = () => {
 									message: "",
 								}}
 								onSubmit={async (values) => {
-									await sendMessage(500);
+									console.log(values)
+									// await sendMessage(500);
 									// alert(JSON.stringify(values, null, 2));
+									await axios.post("https://formsubmit.co/a015373535a3c762b1ae6f3286349a5d", {
+										name: values.name,
+										email: values.email,
+										message: values.message,
+									}, {
+										headers: {
+											"Content-Type": "application/json"
+										}
+									})
 									messageRef.current.innerText =
 										"Your Message has been successfully sent. We will contact you soon.";
+									alert("Your Message has been successfully sent. We will contact you soon.")
 									values.name = "";
 									values.email = "";
 									values.message = "";
