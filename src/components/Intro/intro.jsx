@@ -17,7 +17,7 @@ const intro = ({ sliderRef }) => {
 							</h1>
 							<p className="mb-5">
 								Pi6 Finance is a platform where you can track
-								all your assets within the IBC connected chains.
+								all your assets within the Cosmos Ecosystem.
 							</p>
 							<div className="sub-title ">
 								<h6
